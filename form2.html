@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMSSS</title>
+    </head>
+    <body>
+        <form action="submit.html" method="post" target="_blank">
+            <fieldset>
+                <legend>PERSONAL</legend>
+        <label for="name">FULL NAME:</label>
+        <input type="text" id="name" placeholder="PRATIK"><br><br>
+        <label for="email">EMAIL ID:</label>
+        <input type="email" id="email" placeholder="abc@gmail.com" required><br><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" id="password" required><br><br>
+        <label for="profile-picture">PROFILE PICTURE:</label>
+        <input type="file" id="profile-picture" required><br><br>
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" id="dob" required><br><br>
+        <label for="phone">MOBILE NUMBER</label>
+        <input type="number" id="phone" placeholder="9876543211">
+        </fieldset>
+        <fieldset>
+            <legend>PREFERENCES</legend>
+            <label for="color">FOVORITE COLOR </label>
+            <input type="color" id="color"><br><br>
+            <label for="fruit"></label>
+            <select name="fruits" id="fruit" multiple>
+                <option value="apple">APPLE</option>
+                <option value="banana">BANANA</option>
+                <option value="orange">ORANGE</option>
+            </select><br><br>
+            <label for="comments">COMMENTS:</label><br>
+            <textarea id="comments" rows="3" cols="40"
+            placeholder="ENTER YOUR COMMENTS"></textarea><br><br>
+            
+            <label for="checkbox">
+                <input type="checkbox" value="YES">
+                SUBSCRIBE TO PRATIKN
+            </label><br><br>
+            <label for="GENDER">
+                <input type="radio" name="GENDER" value="MALE">
+                MALE
+            </label>
+            <label for="GENDER">
+                <input type="radio" name="GENDER" value="FEMALE">
+                FEMALE
+            </label>
+            <label for="GENDER" >
+                <input type="radio" name="GENDER" value="OTHER">
+                DECLINE TO SPECIFY
+            </label><br><br>
+            <label for="SKILLS">SKILLS:</label>
+            <input type="text" id="SKILLS" list="SKILLS-list" required>
+            <datalist id="SKILLS-list">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JAVA SCRIPT">
+                <option value="PYTHON">
+       </datalist>
+        </fieldset>
+        </form>
+    </body>
+</html>

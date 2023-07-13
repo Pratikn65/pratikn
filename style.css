@@ -1,0 +1,12 @@
+.profile-card{
+    align-content: center;
+    margin-left: 500px;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #D0F5BE;
+    font-size: 20px;
+    background-color: #98EECC;
+}
+.profile-card:hover{
+    opacity: 0.8;
+}
